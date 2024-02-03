@@ -1,34 +1,120 @@
-*{
-    padding: 0;
-    margin: 0;
+body{
+  margin: 0;
+   animation-name: change;
+   animation-duration: 5s;
+   animation-iteration-count: infinite;
+
+
+}
+
+@keyframes change{
+
+0%{
+    background: rgb(63,94,251);
+    background: linear-gradient(90deg, rgba(63,94,251,1) 0%, rgba(70,252,161,1) 100%);
+    transition: 1s;
+}
+
+50%{
+    background: rgb(126,63,251);
+    background: linear-gradient(90deg, rgba(126,63,251,1) 0%, rgba(70,199,252,1) 98%);
+    transition: 1s;
+}
+
+100%{
+    background: rgb(2,0,36);
+    background: linear-gradient(90deg, rgba(2,0,36,1) 0%, rgba(9,9,121,1) 35%, rgba(0,212,255,1) 100%);
+    transition: 1s;
+}
+}
+.h1{
+     
+    font-family: 'Protest Revolution', sans-serif;
+    text-align: center;
+    padding: 2px;
+    color: white;
+
+   
+}
+.h1:hover{
+         text-shadow: 5px 5px 10px rgb(22, 150, 236);
+          
+}
+.h2{
+       color: rgb(53, 123, 126);
+       background-color: azure;
+       text-align: center;
+       font-family: 'Protest Guerrilla', sans-serif;
+       padding: 10px;
+
+}
+.h2link{
+    text-decoration: none;
+}
+.h2:hover{
+   color: black;
+
+}
+.img{
+    border-radius: 10px;
+    height: 350px;
+    width: 500px;
+    margin: 20px;
+
 }
 
 
-.border{
-    height: 20vh;
-    width: 10px;
-    position: absolute;
-     animation-name: anima;
-     animation-duration: 10s;
-     animation-iteration-count: infinite;
-}
-
-@keyframes anima{
-  0%{
-    top: 0;
-   left: 0;
-    background-image:  linear-gradient(90deg, rgba(2,0,36,1) 0%, rgba(9,121,107,1) 45%, rgba(0,212,255,1) 100%);
+div{
     
-  }
+    display: inline;
+    position: relative;
+    padding-top: 10px;
+}
 
-   100%{
-    top: 100%;
-    left: 0;
-    background-image: radial-gradient(circle, rgba(63,94,251,1) 0%, rgba(252,70,107,1) 100%);
-    transition: 2s;
-   }
- 
-
-
+.name{
+    position: absolute;
+     bottom:-10px;
+     left: 20px;
+    font-size: 17px;
+   text-decoration: none;
+    color: rgb(255, 255, 255);
+    font-family: 'Times New Roman', Times, serif;
+    
 
 }
+.pic{
+    padding-left: 170px;
+    padding-top: 30px;
+}
+
+
+.name:hover{
+     color: rgb(223, 93, 93);
+     
+     
+}
+
+    
+
+#rd{
+    position: absolute;
+    bottom:-10px;
+    left: 20px;
+   text-decoration: none;
+    color: rgb(255, 255, 255);
+}
+#rd:hover{
+
+    color: rgb(223, 93, 93);}
+    
+   
+    #rdt:hover{
+    
+        color: rgb(223, 93, 93);}
+.img:hover{
+    box-shadow: 5px 8px 5px black  ;
+}
+  
+     #nd{
+             text-decoration: none;
+     }
